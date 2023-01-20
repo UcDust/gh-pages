@@ -88,13 +88,14 @@
        font-style: normal;
        font-display:swap
      }
+
+     .content {
+        margin: 2rem;
+     }
    </style>
 </head>
 <body>
-    <ucdlib-header
-        site-name="UC Davis Library Schema"
-        prevent-fixed>
-
+    <ucdlib-header site-name="UC Davis Library Schema">
         <ucdlib-primary-nav>
             <ul link-text="Apps" href="#">
             <li><a href="@context/dams.json">DAMS</a></li>
@@ -102,10 +103,10 @@
             </ul>
             <a href=#>About</a>
         </ucdlib-primary-nav>
-
     </ucdlib-header>
-
-    <h1>UC Davis Library Schema</h1>
-    <p>Things</p>
+    <div class="content">
+        <h3>A site to document the UC Davis Library schema</h3>
+        <p>Some stated purpose</p>
+    </div>
 </body>
 </html>
