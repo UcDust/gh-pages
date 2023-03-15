@@ -63,7 +63,7 @@ jobs:
     - uses: actions/upload-artifact@master
       with:
         name: github-pages
-        path: ./_site/
+        path: _site/
         
   buildSchemasPath:
     needs: generateInputPaths
@@ -91,7 +91,7 @@ jobs:
     - uses: actions/upload-artifact@master
       with:
         name: github-pages
-        path: ./_site/
+        path: _site/
 
 
       
@@ -122,7 +122,7 @@ jobs:
     - uses: actions/upload-artifact@master
       with:
         name: github-pages
-        path: ./_site/
+        path: _site/
         
   # Build job
   build:
@@ -136,7 +136,7 @@ jobs:
     - uses: actions/download-artifact@master
       with:
         name: github-pages
-        path: ./_site/
+        path: _site/
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v1
 # Deployment job
