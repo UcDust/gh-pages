@@ -39,7 +39,7 @@ plugins:
 collections:
   contexts:
     output: true
-    permalink: /@context/:path/
+    permalink: /@context/:path.json
   schemas:
     output: true
     permalink: /:path/
